@@ -10,13 +10,13 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import page1 from "../../assets/FloorPlan/FloorPlan4/unit04.jpg";
 
 const menuContents = [
-  { title: "84A", url: "/FloorPlan/84A" },
+  { title: "109OA", url: "/FloorPlan/109OA" },
   { title: "84B", url: "/FloorPlan/84B" },
   { title: "84C", url: "/FloorPlan/84C" },
   { title: "104OB", url: "/FloorPlan/104OB" },
   { title: "109OA", url: "/FloorPlan/109OA" },
   { title: "110OC", url: "/FloorPlan/110OC" },
-  { title: "E-모델하우스", url: "/FloorPlan/Emodel" },
+  // { title: "E-모델하우스", url: "/FloorPlan/Emodel" },
 ];
 
 const FloorPlan4 = () => {

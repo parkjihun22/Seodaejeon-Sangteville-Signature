@@ -71,7 +71,7 @@ const menuArray = [
       { subTitle: "104OB㎡", subUrl: "/FloorPlan/84B" },
       { subTitle: "109OA", subUrl: "/FloorPlan/114A" },
       { subTitle: "110OC", subUrl: "/FloorPlan/114B" },
-      { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
+      // { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
     ],
   },
   {

@@ -6,7 +6,9 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
-import page1 from "../../assets/BusinessGuide/BusinessGuide2/calendar.jpg";
+// import page1 from "../../assets/BusinessGuide/BusinessGuide2/calendar.jpg";
+
+import Ready from "../../components/Ready/Ready";
 
 const BusinessGuide2 = () => {
     const menuContents = [
@@ -57,15 +59,17 @@ const BusinessGuide2 = () => {
   <div>청약, 당첨자 발표, 계약 등 필요한 일정을 확인하세요.</div>
 </div>
 
-<img
+{/* <img
   className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`}
   src={page1}
   alt="서대전 상떼빌 시그니처 분양일정 및 청약 일정 안내"
-/>
+/> */}
 
 <div className={styles.readyContainer}>
+    <Ready/>
   {/* 필요한 경우 Ready 또는 분양 카운트 컴포넌트 삽입 */}
 </div>
+
 
 
             <Footer />

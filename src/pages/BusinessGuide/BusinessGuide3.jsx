@@ -6,7 +6,9 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
-import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
+// import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
+
+import Ready from "../../components/Ready/Ready";
 
 const BusinessGuide2 = () => {
 	const menuContents = [
@@ -69,11 +71,13 @@ const BusinessGuide2 = () => {
   <div>타입별 마감, 옵션, 유의사항은 최종 분양 안내 기준으로 확인하시기 바랍니다.</div>
 </div>
 
-<img
+{/* <img
   className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`}
   src={page1}
   alt="서대전 상떼빌 시그니처 공급안내 안내 이미지"
-/>
+/> */}
+
+<Ready/>
 
 
 
