@@ -160,7 +160,7 @@ const page = ({
 export const seoPages = {
   home: page({
     path: "/",
-    title: "서대전 상떼빌 시그니처 | 유천동 10년 장기일반민간임대",
+    title: "서대전 상떼빌 시그니처",
     description: siteSeo.defaultDescription,
     menu: "홈",
     priority: 1,
