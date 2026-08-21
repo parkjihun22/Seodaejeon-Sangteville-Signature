@@ -10,12 +10,12 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import page1 from "../../assets/FloorPlan/FloorPlan6/unit06.jpg";
 
 const menuContents = [
-  { title: "109OA", url: "/FloorPlan/109OA" },
-  { title: "84B", url: "/FloorPlan/84B" },
-  { title: "84C", url: "/FloorPlan/84C" },
-  { title: "104OB", url: "/FloorPlan/104OB" },
-  { title: "109OA", url: "/FloorPlan/109OA" },
-  { title: "110OC", url: "/FloorPlan/110OC" },
+  { title: "84A", url: "/FloorPlan/59A" },
+  { title: "84B", url: "/FloorPlan/59B" },
+  { title: "84C", url: "/FloorPlan/84A" },
+  { title: "104OB", url: "/FloorPlan/84B" },
+  { title: "109OA", url: "/FloorPlan/114A" },
+  { title: "110OC", url: "/FloorPlan/114B" },
   // { title: "E-모델하우스", url: "/FloorPlan/Emodel" },
 ];
 
@@ -44,7 +44,7 @@ const FloorPlan6 = () => {
 
       <div className={styles.textBox}>
         <div>상떼빌 시그니처 110OC 타입 안내</div>
-        <div>84㎡ 타입의 수납 계획과 생활 동선을 확인하세요.</div>
+        <div>110OC 타입의 수납 계획과 생활 동선을 확인하세요.</div>
       </div>
 
       <img
